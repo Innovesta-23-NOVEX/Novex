@@ -13,7 +13,7 @@ public class Launcher extends Application {
     }
     @Override
     public void start(Stage stage) throws Exception {
-        Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/managesupplier_form.fxml"));
+        Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/login_form.fxml"));
         Scene scene = new Scene(rootNode);
 
         Image image = new Image("images/WhatsApp Image 2023-08-07 at 21.08.13-modified.png");
