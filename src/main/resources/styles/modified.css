@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@400;500&display=swap');
-
 .button
  {
      -fx-background-color: transparent;
@@ -15,9 +13,4 @@
  {
      -fx-background-color: #239c9c;
      -fx-background-radius: 10 10 10 10;
- }
-
- .label
- {
-     -fx-font-family: 'Kantumruy Pro', sans-serif;
  }

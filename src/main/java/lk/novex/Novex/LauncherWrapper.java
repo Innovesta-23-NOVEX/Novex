@@ -6,3 +6,4 @@ public class LauncherWrapper {
         Launcher.main(args);
     }
 }
+

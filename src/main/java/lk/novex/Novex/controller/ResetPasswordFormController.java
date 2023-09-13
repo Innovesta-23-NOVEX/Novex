@@ -8,30 +8,12 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-import java.awt.*;
 import java.io.IOException;
 
-public class HomeFormController {
-    @FXML
-    private Button homebtn;
-
-    @FXML
-    private Button managepilebtn;
-
-    @FXML
-    private Button manageproductbtn;
-
-    @FXML
-    private Button managesupplierbtn;
-
-    @FXML
-    private Button qualitytestbtn;
+public class ResetPasswordFormController {
 
     @FXML
     private AnchorPane rootNode;
-
-    @FXML
-    private Button viewcctvbtn;
 
     @FXML
     void btnLoginOnAction(ActionEvent event) throws IOException {

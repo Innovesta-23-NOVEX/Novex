@@ -18,7 +18,7 @@
             <Image url="@../images/loginpage/loginback.jpg" />
          </image>
       </ImageView>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="604.0" layoutX="388.0" layoutY="37.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="586.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="604.0" layoutX="392.0" layoutY="37.0" opacity="0.5" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="586.0" />
       <ImageView fitHeight="68.0" fitWidth="286.0" layoutX="540.0" layoutY="61.0">
          <image>
             <Image url="@../images/recolter.png" />
@@ -50,12 +50,7 @@
             <Font size="15.0" />
          </font>
       </TextField>
-      <Label layoutX="609.0" layoutY="394.0" text="Forgot Password ?">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </Label>
-      <Button fx:id="loginbtn" layoutX="622.0" layoutY="426.0" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="48.0" prefWidth="123.0" stylesheets="@../styles/login.css" text="Login in" textFill="WHITE">
+      <Button fx:id="login" layoutX="620.0" layoutY="437.0" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="48.0" prefWidth="123.0" stylesheets="@../styles/login.css" text="Login in" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
@@ -74,5 +69,13 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
+      <Button fx:id="forgotten" layoutX="584.0" layoutY="395.0" mnemonicParsing="false" onAction="#btnResetPasswordOnAction" prefHeight="17.0" prefWidth="204.0" styleClass="forgot-button" stylesheets="@../styles/login.css" text="Forgot Password ?">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
    </children>
 </AnchorPane>

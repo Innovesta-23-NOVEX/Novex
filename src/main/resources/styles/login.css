@@ -14,3 +14,13 @@
     -fx-background-color: #1d7c1b;
     -fx-background-radius: 30 30 30 30;
 }
+
+.forgot-button
+{
+    -fx-background-color: transparent;
+}
+
+.face-recognition
+{
+    -fx-background-color: transparent;
+}
