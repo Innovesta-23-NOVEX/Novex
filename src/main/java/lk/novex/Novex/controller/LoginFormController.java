@@ -11,13 +11,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public class LoginFormController {
+
     @FXML
     private AnchorPane rootNode;
-
-
     @FXML
     void btnHomeOnAction(ActionEvent event) throws IOException {
-        //Navigate to Home Page
         Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/home_form.fxml"));
 
         Scene scene = new Scene(rootNode);
@@ -25,5 +23,9 @@ public class LoginFormController {
         stage.setTitle("Recolter");
         stage.setScene(scene);
     }
+
+        //Navigate to Home Page
+
+
 }
 

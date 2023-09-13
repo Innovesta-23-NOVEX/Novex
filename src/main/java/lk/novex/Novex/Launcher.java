@@ -16,10 +16,10 @@ public class Launcher extends Application {
         Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/login_form.fxml"));
         Scene scene = new Scene(rootNode);
 
-        Image image = new Image("images/WhatsApp Image 2023-08-07 at 21.08.13-modified.png");
+        Image image = new Image("images/recolter-modified.png");
         stage.getIcons().add(image);
 
-        stage.setTitle("Login Page");
+        stage.setTitle("Recolter");
         stage.centerOnScreen();
         stage.setScene(scene);
         stage.show();
