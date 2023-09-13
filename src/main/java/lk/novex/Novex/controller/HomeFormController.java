@@ -31,6 +31,9 @@ public class HomeFormController {
     private AnchorPane rootNode;
 
     @FXML
+    private AnchorPane rootHome;
+
+    @FXML
     private Button viewcctvbtn;
 
     @FXML
@@ -41,5 +44,11 @@ public class HomeFormController {
         Stage stage = (Stage) this.rootNode.getScene().getWindow();
         stage.setTitle("Recolter");
         stage.setScene(scene);
+    }
+    @FXML
+    void btnHomeOnAction(ActionEvent event) throws IOException {
+        Parent rootNode = FXMLLoader.load(this.getClass().getResource("/view/home_form.fxml"));
+        this.rootHome.getChildren().clear();
+        this.rootHome.getChildren().add(rootNode);
     }
 }
