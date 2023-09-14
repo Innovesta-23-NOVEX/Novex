@@ -50,7 +50,7 @@
             <Font size="15.0" />
          </font>
       </TextField>
-      <Button fx:id="login" layoutX="620.0" layoutY="437.0" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="48.0" prefWidth="123.0" stylesheets="@../styles/login.css" text="Login in" textFill="WHITE">
+      <Button fx:id="login" layoutX="620.0" layoutY="437.0" mnemonicParsing="false" onAction="#btnHomeOnAction" prefHeight="48.0" prefWidth="123.0" stylesheets="@../styles/login.css" text="Log in" textFill="WHITE">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>

@@ -2,11 +2,15 @@ package lk.novex.Novex.controller;
 
 import javafx.event.ActionEvent;
 
-public class ViewCCTVController {
+public class QualityTestFormController {
     public void btnHomeOnAction(ActionEvent actionEvent) {
+
     }
 
     public void btnQualityTestOnAction(ActionEvent actionEvent) {
+    }
+
+    public void btnLoginOnAction(ActionEvent actionEvent) {
     }
 
     public void btnManagePileOnAction(ActionEvent actionEvent) {
@@ -22,8 +26,5 @@ public class ViewCCTVController {
     }
 
     public void btnAdminOnAction(ActionEvent actionEvent) {
-    }
-
-    public void btnLoginOnAction(ActionEvent actionEvent) {
     }
 }
